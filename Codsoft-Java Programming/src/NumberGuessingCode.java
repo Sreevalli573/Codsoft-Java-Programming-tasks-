@@ -20,6 +20,7 @@ public class NumberGuessingCode {
 	            boolean guessed = false;
 	            roundsplayed++;
 	        
+	            
 
 	            System.out.println("heyy!!Guess the number between " + lower + " and " + upper);
 	            System.out.println("You have " + maxAttempts + " attempts");
@@ -60,7 +61,9 @@ public class NumberGuessingCode {
 	        System.out.println("You won"+" "+roundswon+" "+"rounds");
 	        System.out.println("Your total score:"+totalScore);
 	        System.out.println("Thanks for playing! Goodbye!");
+	      
 	       
 	    }
+	    
 	}
 
